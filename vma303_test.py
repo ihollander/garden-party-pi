@@ -3,7 +3,7 @@ import time
 import datetime
 
 # initialize GPIO
-GPIO.setwarnings(false)
+GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 GPIO.cleanup()
 
