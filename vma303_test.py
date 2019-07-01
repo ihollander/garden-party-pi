@@ -7,7 +7,7 @@ GPIO.setwarnings(false)
 GPIO.setmode(GPIO.BCM)
 GPIO.cleanup()
 
-while True
+while True:
   print("Water sensor: ", GPIO.input(17))
 
   time.sleep(1)
